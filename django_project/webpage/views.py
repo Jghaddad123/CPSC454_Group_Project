@@ -29,4 +29,6 @@ def uploadDownload(request):
     return render(request, 'webpage/uploadDownload.html')
 
 def download(request):
-    return render(request, 'webpage/download.html')
+     media = MediaStorage()
+     files = media.listdir(MediaStorage.location)
+     return render(request, 'webpage/download.html')
