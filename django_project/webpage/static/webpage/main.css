@@ -80,8 +80,33 @@ body {
     background-size: contain;
     position: relative;
   }
-
+  .download-box{
+    width: 520px;
+    height: 420px;
+    position: relative;
+    margin: 5%;
+    top: 5%;
+    overflow:scroll;
+    overflow-x:hidden;
+    overflow-y:scroll
+  }
   .d-form-box{
+    width: 600px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background:lightsteelblue;
+  }
+
+    /*********** Register Page ***********/
+    .r-background{
+      height: auto;
+      width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://ak.picdn.net/shutterstock/videos/21281653/thumb/1.jpg);
+      background-size: contain;
+      position: absolute;
+  }
+  .content-section{
     width: 380px;
     height: auto;
     position: relative;
@@ -89,3 +114,4 @@ body {
     background:lightsteelblue;
     text-align: center;
   }
+  
